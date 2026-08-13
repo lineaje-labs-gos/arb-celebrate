@@ -37,7 +37,7 @@
   "dependencies": {
     "escape-html": "1.0.3",
     "joi": "17.x.x",
-    "lodash": "4.17.x"
+    "lodash": ">=4.18.1"
   },
   "devDependencies": {
     "@hapi/teamwork": "5.1.0",
@@ -51,11 +51,17 @@
     "eslint-config-airbnb-base": "15.x.x",
     "eslint-plugin-import": "2.x.x",
     "expect": "27.x.x",
-    "express": "next",
+    "express": "5.x",
     "faker": "5.5.x",
     "is-ci-cli": "2.x.x",
     "jest": "27.x.x",
     "jest-runner-eslint": "1.x.x",
     "markdown-toc": "1.2.x"
+  },
+  "overrides": {
+    "lodash": ">=4.18.1"
+  },
+  "resolutions": {
+    "lodash": ">=4.18.1"
   }
 }
